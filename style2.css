@@ -1,0 +1,76 @@
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: #11114E;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    font-size: 25px; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    width: 500px; 
+}
+
+#div1 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+#div2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div3 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputPesquisa {
+    height: 20px;
+    width: 400px;
+    border-radius: 10px; 
+}
+
+button {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 60px;
+}
+
+#login {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px; 
+}
+
+#cadastrar {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px; 
+}
